@@ -1,0 +1,82 @@
+[
+ {
+  "claim": "VPT-shallow: ViT-B backbone has ~86 M parameters",
+  "passed": true,
+  "detail": "85.80 M"
+ },
+ {
+  "claim": "VPT-shallow: p=50 prompts add 38,400 parameters (p*d)",
+  "passed": true,
+  "detail": "38,400"
+ },
+ {
+  "claim": "VPT-shallow: = 0.04% of the backbone (paper Sec. 3.2)",
+  "passed": true,
+  "detail": "0.045%"
+ },
+ {
+  "claim": "VPT-shallow: prompts initialised U(-v, v), v = sqrt(6/(3*16^2+d))",
+  "passed": true,
+  "detail": "max|p|=0.0625 <= 0.0625"
+ },
+ {
+  "claim": "VPT-shallow: every layer sees [CLS] + 50 prompts + 196 patches",
+  "passed": true,
+  "detail": "seq len 247"
+ },
+ {
+  "claim": "VPT-shallow: prompts enter layer 1 only (Eq. 4-6)",
+  "passed": true,
+  "detail": ""
+ },
+ {
+  "claim": "[x0,P,E0] and [x0,E0,P] give the same [CLS] output (paper Sec. 3.2)",
+  "passed": true,
+  "detail": "max|diff|=3.9e-06"
+ },
+ {
+  "claim": "VPT-deep: ViT-B backbone has ~86 M parameters",
+  "passed": true,
+  "detail": "85.80 M"
+ },
+ {
+  "claim": "VPT-deep: p=50 prompts add 460,800 parameters (N*p*d)",
+  "passed": true,
+  "detail": "460,800"
+ },
+ {
+  "claim": "VPT-deep: = 0.53% of the backbone (paper Sec. 3.2)",
+  "passed": true,
+  "detail": "0.537%"
+ },
+ {
+  "claim": "VPT-deep: prompts initialised U(-v, v), v = sqrt(6/(3*16^2+d))",
+  "passed": true,
+  "detail": "max|p|=0.0625 <= 0.0625"
+ },
+ {
+  "claim": "VPT-deep: every layer sees [CLS] + 50 prompts + 196 patches",
+  "passed": true,
+  "detail": "seq len 247"
+ },
+ {
+  "claim": "VPT-deep: layer i receives its own fresh prompts P_(i-1) (Eq. 7)",
+  "passed": true,
+  "detail": ""
+ },
+ {
+  "claim": "vpt_deep: only ['deep_prompt_embeddings', 'head', 'prompt_embeddings'] are trainable (backbone frozen)",
+  "passed": true,
+  "detail": "4 tensors"
+ },
+ {
+  "claim": "vpt_shallow: only ['head', 'prompt_embeddings'] are trainable (backbone frozen)",
+  "passed": true,
+  "detail": "3 tensors"
+ },
+ {
+  "claim": "linear: only ['head'] are trainable (backbone frozen)",
+  "passed": true,
+  "detail": "2 tensors"
+ }
+]

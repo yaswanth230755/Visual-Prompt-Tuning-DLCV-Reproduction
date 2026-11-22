@@ -1,0 +1,57 @@
+{
+ "paper": "Visual Prompt Tuning (Jia et al., ECCV 2022)",
+ "dataset": "Oxford Flowers-102 (102 classes)",
+ "backbone": "ViT-B/16 ImageNet-21k (official weights, downloaded separately)",
+ "methods": {
+  "vpt_deep": {
+   "label": "VPT-deep",
+   "file": "vpt_deep.pth",
+   "base_lr": 25.0,
+   "prompts": 10,
+   "source_run": "vpt_deep_lr25_p10",
+   "test_acc": 98.6177,
+   "val_acc": 99.1176,
+   "tuned_percent": 0.1984
+  },
+  "vpt_shallow": {
+   "label": "VPT-shallow",
+   "file": "vpt_shallow.pth",
+   "base_lr": 5.0,
+   "prompts": 10,
+   "source_run": "vpt_shallow_lr5_p10",
+   "test_acc": 98.0322,
+   "val_acc": 98.6275,
+   "tuned_percent": 0.1003
+  },
+  "linear": {
+   "label": "Linear",
+   "file": "linear.pth",
+   "base_lr": 25.0,
+   "prompts": 10,
+   "source_run": "linear_lr25",
+   "test_acc": 97.9509,
+   "val_acc": 98.6275,
+   "tuned_percent": 0.0913
+  },
+  "bias": {
+   "label": "Bias",
+   "file": "bias.pth",
+   "base_lr": 1.0,
+   "prompts": 10,
+   "source_run": "bias_lr1",
+   "test_acc": 98.9917,
+   "val_acc": 99.1176,
+   "tuned_percent": 0.2112
+  },
+  "adapter": {
+   "label": "Adapter",
+   "file": "adapter.pth",
+   "base_lr": 1.0,
+   "prompts": 10,
+   "source_run": "adapter_lr1",
+   "test_acc": 98.3575,
+   "val_acc": 99.1176,
+   "tuned_percent": 2.1199
+  }
+ }
+}

@@ -1,0 +1,7 @@
+weights/
+.demo_out/
+__pycache__/
+*.pyc
+sir_images/
+data/
+.ipynb_checkpoints/

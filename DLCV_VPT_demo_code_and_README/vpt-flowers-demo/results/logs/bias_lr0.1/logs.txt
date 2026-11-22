@@ -1,0 +1,155 @@
+[10/25 23:10:51][INFO] visual_prompt:   26: Constructing OxfordFlowers dataset train...
+[10/25 23:10:51][INFO] visual_prompt:   70: Number of images: 1020
+[10/25 23:10:51][INFO] visual_prompt:   71: Number of classes: 102
+[10/25 23:10:51][INFO] visual_prompt:   26: Constructing OxfordFlowers dataset val...
+[10/25 23:10:51][INFO] visual_prompt:   70: Number of images: 1020
+[10/25 23:10:51][INFO] visual_prompt:   71: Number of classes: 102
+[10/25 23:10:51][INFO] visual_prompt:   26: Constructing OxfordFlowers dataset test...
+[10/25 23:10:51][INFO] visual_prompt:   70: Number of images: 6149
+[10/25 23:10:51][INFO] visual_prompt:   71: Number of classes: 102
+[10/25 23:10:52][INFO] visual_prompt:   52: Total Parameters: 85877094	 Gradient Parameters: 181350
+[10/25 23:10:52][INFO] visual_prompt:   54: tuned percent:0.211
+[10/25 23:10:52][INFO] visual_prompt:   40: Device used for model: 0
+[10/25 23:10:52][INFO] visual_prompt:   44: 	Setting up the optimizer...
+[10/25 23:10:52][INFO] visual_prompt:  163: Training 1 / 30 epoch, with learning rate 0.0
+[10/25 23:11:22][INFO] visual_prompt:  215: Epoch 1 / 30: avg data time: 1.01e-02, avg batch time: 0.9320, average train loss: 4.7808
+[10/25 23:11:37][INFO] visual_prompt:  320: Inference (val):avg data time: 8.09e-05, avg batch time: 0.4402, average loss: 4.7855
+[10/25 23:11:37][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 0.20	top5: 5.78	
+[10/25 23:11:37][INFO] visual_prompt:  245: Best epoch 1: best metric: 0.002
+[10/25 23:11:37][INFO] visual_prompt:  163: Training 2 / 30 epoch, with learning rate 0.004166666666666667
+[10/25 23:12:06][INFO] visual_prompt:  215: Epoch 2 / 30: avg data time: 1.00e-02, avg batch time: 0.9136, average train loss: 4.6814
+[10/25 23:12:20][INFO] visual_prompt:  320: Inference (val):avg data time: 8.18e-05, avg batch time: 0.4333, average loss: 4.5675
+[10/25 23:12:20][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 1.86	top5: 11.67	
+[10/25 23:12:20][INFO] visual_prompt:  245: Best epoch 2: best metric: 0.019
+[10/25 23:12:20][INFO] visual_prompt:  163: Training 3 / 30 epoch, with learning rate 0.008333333333333333
+[10/25 23:12:49][INFO] visual_prompt:  215: Epoch 3 / 30: avg data time: 1.01e-02, avg batch time: 0.9159, average train loss: 4.3769
+[10/25 23:13:04][INFO] visual_prompt:  320: Inference (val):avg data time: 6.12e-05, avg batch time: 0.4384, average loss: 4.1751
+[10/25 23:13:04][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 10.69	top5: 28.82	
+[10/25 23:13:04][INFO] visual_prompt:  245: Best epoch 3: best metric: 0.107
+[10/25 23:13:04][INFO] visual_prompt:  163: Training 4 / 30 epoch, with learning rate 0.0125
+[10/25 23:13:33][INFO] visual_prompt:  215: Epoch 4 / 30: avg data time: 1.05e-02, avg batch time: 0.9212, average train loss: 3.8959
+[10/25 23:13:48][INFO] visual_prompt:  320: Inference (val):avg data time: 8.23e-05, avg batch time: 0.4363, average loss: 3.6021
+[10/25 23:13:48][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 31.76	top5: 60.78	
+[10/25 23:13:48][INFO] visual_prompt:  245: Best epoch 4: best metric: 0.318
+[10/25 23:13:48][INFO] visual_prompt:  163: Training 5 / 30 epoch, with learning rate 0.012457739735887145
+[10/25 23:14:17][INFO] visual_prompt:  215: Epoch 5 / 30: avg data time: 1.08e-02, avg batch time: 0.9165, average train loss: 3.2559
+[10/25 23:14:31][INFO] visual_prompt:  320: Inference (val):avg data time: 1.11e-04, avg batch time: 0.4353, average loss: 3.0120
+[10/25 23:14:31][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 61.57	top5: 82.35	
+[10/25 23:14:31][INFO] visual_prompt:  245: Best epoch 5: best metric: 0.616
+[10/25 23:14:31][INFO] visual_prompt:  163: Training 6 / 30 epoch, with learning rate 0.0123315304411239
+[10/25 23:15:01][INFO] visual_prompt:  215: Epoch 6 / 30: avg data time: 1.06e-02, avg batch time: 0.9175, average train loss: 2.6309
+[10/25 23:15:15][INFO] visual_prompt:  320: Inference (val):avg data time: 9.99e-05, avg batch time: 0.4376, average loss: 2.4524
+[10/25 23:15:15][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 79.90	top5: 92.55	
+[10/25 23:15:15][INFO] visual_prompt:  245: Best epoch 6: best metric: 0.799
+[10/25 23:15:15][INFO] visual_prompt:  163: Training 7 / 30 epoch, with learning rate 0.012123078879911929
+[10/25 23:15:45][INFO] visual_prompt:  215: Epoch 7 / 30: avg data time: 1.13e-02, avg batch time: 0.9187, average train loss: 2.0763
+[10/25 23:15:59][INFO] visual_prompt:  320: Inference (val):avg data time: 7.94e-05, avg batch time: 0.4361, average loss: 1.9655
+[10/25 23:15:59][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 87.55	top5: 96.08	
+[10/25 23:15:59][INFO] visual_prompt:  245: Best epoch 7: best metric: 0.875
+[10/25 23:15:59][INFO] visual_prompt:  163: Training 8 / 30 epoch, with learning rate 0.011835204002021328
+[10/25 23:16:28][INFO] visual_prompt:  215: Epoch 8 / 30: avg data time: 1.02e-02, avg batch time: 0.9164, average train loss: 1.6156
+[10/25 23:16:43][INFO] visual_prompt:  320: Inference (val):avg data time: 1.10e-04, avg batch time: 0.4338, average loss: 1.5657
+[10/25 23:16:43][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 92.06	top5: 97.75	
+[10/25 23:16:43][INFO] visual_prompt:  245: Best epoch 8: best metric: 0.921
+[10/25 23:16:43][INFO] visual_prompt:  163: Training 9 / 30 epoch, with learning rate 0.011471798821330854
+[10/25 23:17:12][INFO] visual_prompt:  215: Epoch 9 / 30: avg data time: 1.10e-02, avg batch time: 0.9169, average train loss: 1.2466
+[10/25 23:17:26][INFO] visual_prompt:  320: Inference (val):avg data time: 1.26e-04, avg batch time: 0.4359, average loss: 1.2639
+[10/25 23:17:26][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 95.10	top5: 98.73	
+[10/25 23:17:26][INFO] visual_prompt:  245: Best epoch 9: best metric: 0.951
+[10/25 23:17:26][INFO] visual_prompt:  163: Training 10 / 30 epoch, with learning rate 0.011037777769493613
+[10/25 23:17:56][INFO] visual_prompt:  215: Epoch 10 / 30: avg data time: 9.72e-03, avg batch time: 0.9167, average train loss: 0.9828
+[10/25 23:18:10][INFO] visual_prompt:  320: Inference (val):avg data time: 9.51e-05, avg batch time: 0.4373, average loss: 1.0427
+[10/25 23:18:10][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 95.88	top5: 99.02	
+[10/25 23:18:10][INFO] visual_prompt:  245: Best epoch 10: best metric: 0.959
+[10/25 23:18:10][INFO] visual_prompt:  163: Training 11 / 30 epoch, with learning rate 0.010539010236679587
+[10/25 23:18:39][INFO] visual_prompt:  215: Epoch 11 / 30: avg data time: 1.02e-02, avg batch time: 0.9173, average train loss: 0.7862
+[10/25 23:18:54][INFO] visual_prompt:  320: Inference (val):avg data time: 9.18e-05, avg batch time: 0.4385, average loss: 0.8736
+[10/25 23:18:54][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 96.76	top5: 99.22	
+[10/25 23:18:54][INFO] visual_prompt:  245: Best epoch 11: best metric: 0.968
+[10/25 23:18:54][INFO] visual_prompt:  163: Training 12 / 30 epoch, with learning rate 0.009982241198142415
+[10/25 23:19:23][INFO] visual_prompt:  215: Epoch 12 / 30: avg data time: 1.03e-02, avg batch time: 0.9204, average train loss: 0.6324
+[10/25 23:19:38][INFO] visual_prompt:  320: Inference (val):avg data time: 9.43e-05, avg batch time: 0.4359, average loss: 0.7577
+[10/25 23:19:38][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 97.35	top5: 99.31	
+[10/25 23:19:38][INFO] visual_prompt:  245: Best epoch 12: best metric: 0.974
+[10/25 23:19:38][INFO] visual_prompt:  163: Training 13 / 30 epoch, with learning rate 0.009375000000000001
+[10/25 23:20:07][INFO] visual_prompt:  215: Epoch 13 / 30: avg data time: 1.06e-02, avg batch time: 0.9161, average train loss: 0.5322
+[10/25 23:20:21][INFO] visual_prompt:  320: Inference (val):avg data time: 7.20e-05, avg batch time: 0.4329, average loss: 0.6726
+[10/25 23:20:21][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 97.16	top5: 99.31	
+[10/25 23:20:21][INFO] visual_prompt:  163: Training 14 / 30 epoch, with learning rate 0.00872549853774473
+[10/25 23:20:51][INFO] visual_prompt:  215: Epoch 14 / 30: avg data time: 9.98e-03, avg batch time: 0.9155, average train loss: 0.4668
+[10/25 23:21:05][INFO] visual_prompt:  320: Inference (val):avg data time: 8.81e-05, avg batch time: 0.4323, average loss: 0.6034
+[10/25 23:21:05][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 97.55	top5: 99.41	
+[10/25 23:21:05][INFO] visual_prompt:  245: Best epoch 14: best metric: 0.975
+[10/25 23:21:05][INFO] visual_prompt:  163: Training 15 / 30 epoch, with learning rate 0.008042520204444315
+[10/25 23:21:34][INFO] visual_prompt:  215: Epoch 15 / 30: avg data time: 1.11e-02, avg batch time: 0.9162, average train loss: 0.4036
+[10/25 23:21:48][INFO] visual_prompt:  320: Inference (val):avg data time: 7.09e-05, avg batch time: 0.4353, average loss: 0.5595
+[10/25 23:21:48][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 97.45	top5: 99.41	
+[10/25 23:21:48][INFO] visual_prompt:  163: Training 16 / 30 epoch, with learning rate 0.007335301110418316
+[10/25 23:22:18][INFO] visual_prompt:  215: Epoch 16 / 30: avg data time: 9.99e-03, avg batch time: 0.9164, average train loss: 0.3672
+[10/25 23:22:32][INFO] visual_prompt:  320: Inference (val):avg data time: 9.42e-05, avg batch time: 0.4382, average loss: 0.5149
+[10/25 23:22:32][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 98.24	top5: 99.41	
+[10/25 23:22:32][INFO] visual_prompt:  245: Best epoch 16: best metric: 0.982
+[10/25 23:22:32][INFO] visual_prompt:  163: Training 17 / 30 epoch, with learning rate 0.006613405180690474
+[10/25 23:23:02][INFO] visual_prompt:  215: Epoch 17 / 30: avg data time: 9.99e-03, avg batch time: 0.9195, average train loss: 0.3357
+[10/25 23:23:16][INFO] visual_prompt:  320: Inference (val):avg data time: 8.34e-05, avg batch time: 0.4351, average loss: 0.4916
+[10/25 23:23:16][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 97.84	top5: 99.31	
+[10/25 23:23:16][INFO] visual_prompt:  163: Training 18 / 30 epoch, with learning rate 0.005886594819309527
+[10/25 23:23:45][INFO] visual_prompt:  215: Epoch 18 / 30: avg data time: 1.00e-02, avg batch time: 0.9156, average train loss: 0.3129
+[10/25 23:23:59][INFO] visual_prompt:  320: Inference (val):avg data time: 9.04e-05, avg batch time: 0.4326, average loss: 0.4648
+[10/25 23:23:59][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 97.84	top5: 99.41	
+[10/25 23:23:59][INFO] visual_prompt:  163: Training 19 / 30 epoch, with learning rate 0.005164698889581686
+[10/25 23:24:29][INFO] visual_prompt:  215: Epoch 19 / 30: avg data time: 1.02e-02, avg batch time: 0.9149, average train loss: 0.2902
+[10/25 23:24:43][INFO] visual_prompt:  320: Inference (val):avg data time: 8.20e-05, avg batch time: 0.4326, average loss: 0.4473
+[10/25 23:24:43][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 98.24	top5: 99.41	
+[10/25 23:24:43][INFO] visual_prompt:  163: Training 20 / 30 epoch, with learning rate 0.004457479795555688
+[10/25 23:25:12][INFO] visual_prompt:  215: Epoch 20 / 30: avg data time: 9.89e-03, avg batch time: 0.9164, average train loss: 0.2755
+[10/25 23:25:27][INFO] visual_prompt:  320: Inference (val):avg data time: 7.77e-05, avg batch time: 0.4363, average loss: 0.4308
+[10/25 23:25:27][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 98.24	top5: 99.41	
+[10/25 23:25:27][INFO] visual_prompt:  163: Training 21 / 30 epoch, with learning rate 0.00377450146225527
+[10/25 23:25:56][INFO] visual_prompt:  215: Epoch 21 / 30: avg data time: 9.87e-03, avg batch time: 0.9183, average train loss: 0.2557
+[10/25 23:26:10][INFO] visual_prompt:  320: Inference (val):avg data time: 6.15e-05, avg batch time: 0.4364, average loss: 0.4181
+[10/25 23:26:10][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 98.14	top5: 99.41	
+[10/25 23:26:10][INFO] visual_prompt:  163: Training 22 / 30 epoch, with learning rate 0.0031250000000000015
+[10/25 23:26:40][INFO] visual_prompt:  215: Epoch 22 / 30: avg data time: 9.71e-03, avg batch time: 0.9157, average train loss: 0.2556
+[10/25 23:26:54][INFO] visual_prompt:  320: Inference (val):avg data time: 6.40e-05, avg batch time: 0.4344, average loss: 0.4089
+[10/25 23:26:54][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 98.14	top5: 99.31	
+[10/25 23:26:54][INFO] visual_prompt:  163: Training 23 / 30 epoch, with learning rate 0.002517758801857588
+[10/25 23:27:23][INFO] visual_prompt:  215: Epoch 23 / 30: avg data time: 1.00e-02, avg batch time: 0.9160, average train loss: 0.2454
+[10/25 23:27:38][INFO] visual_prompt:  320: Inference (val):avg data time: 9.19e-05, avg batch time: 0.4367, average loss: 0.4025
+[10/25 23:27:38][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 98.04	top5: 99.41	
+[10/25 23:27:38][INFO] visual_prompt:  163: Training 24 / 30 epoch, with learning rate 0.0019609897633204158
+[10/25 23:28:07][INFO] visual_prompt:  215: Epoch 24 / 30: avg data time: 9.87e-03, avg batch time: 0.9189, average train loss: 0.2436
+[10/25 23:28:22][INFO] visual_prompt:  320: Inference (val):avg data time: 6.45e-05, avg batch time: 0.4374, average loss: 0.3958
+[10/25 23:28:22][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 98.24	top5: 99.41	
+[10/25 23:28:22][INFO] visual_prompt:  163: Training 25 / 30 epoch, with learning rate 0.0014622222305063883
+[10/25 23:28:51][INFO] visual_prompt:  215: Epoch 25 / 30: avg data time: 9.91e-03, avg batch time: 0.9159, average train loss: 0.2318
+[10/25 23:29:05][INFO] visual_prompt:  320: Inference (val):avg data time: 4.65e-05, avg batch time: 0.4350, average loss: 0.3925
+[10/25 23:29:05][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 98.04	top5: 99.41	
+[10/25 23:29:05][INFO] visual_prompt:  163: Training 26 / 30 epoch, with learning rate 0.0010282011786691483
+[10/25 23:29:35][INFO] visual_prompt:  215: Epoch 26 / 30: avg data time: 1.01e-02, avg batch time: 0.9175, average train loss: 0.2292
+[10/25 23:29:49][INFO] visual_prompt:  320: Inference (val):avg data time: 7.24e-05, avg batch time: 0.4371, average loss: 0.3897
+[10/25 23:29:49][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 98.04	top5: 99.41	
+[10/25 23:29:49][INFO] visual_prompt:  163: Training 27 / 30 epoch, with learning rate 0.000664795997978674
+[10/25 23:30:18][INFO] visual_prompt:  215: Epoch 27 / 30: avg data time: 9.66e-03, avg batch time: 0.9182, average train loss: 0.2320
+[10/25 23:30:33][INFO] visual_prompt:  320: Inference (val):avg data time: 8.44e-05, avg batch time: 0.4369, average loss: 0.3873
+[10/25 23:30:33][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 98.14	top5: 99.41	
+[10/25 23:30:33][INFO] visual_prompt:  163: Training 28 / 30 epoch, with learning rate 0.00037692112008807306
+[10/25 23:31:02][INFO] visual_prompt:  215: Epoch 28 / 30: avg data time: 9.70e-03, avg batch time: 0.9172, average train loss: 0.2362
+[10/25 23:31:16][INFO] visual_prompt:  320: Inference (val):avg data time: 9.03e-05, avg batch time: 0.4376, average loss: 0.3863
+[10/25 23:31:16][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 98.14	top5: 99.41	
+[10/25 23:31:16][INFO] visual_prompt:  163: Training 29 / 30 epoch, with learning rate 0.00016846955887610122
+[10/25 23:31:46][INFO] visual_prompt:  215: Epoch 29 / 30: avg data time: 9.98e-03, avg batch time: 0.9199, average train loss: 0.2297
+[10/25 23:32:00][INFO] visual_prompt:  320: Inference (val):avg data time: 1.02e-04, avg batch time: 0.4369, average loss: 0.3858
+[10/25 23:32:00][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 98.14	top5: 99.41	
+[10/25 23:32:00][INFO] visual_prompt:  163: Training 30 / 30 epoch, with learning rate 4.226026411285611e-05
+[10/25 23:32:30][INFO] visual_prompt:  215: Epoch 30 / 30: avg data time: 9.99e-03, avg batch time: 0.9198, average train loss: 0.2313
+[10/25 23:32:44][INFO] visual_prompt:  320: Inference (val):avg data time: 8.02e-05, avg batch time: 0.4374, average loss: 0.3857
+[10/25 23:32:44][INFO] visual_prompt:  113: Classification results with val_OxfordFlowers: top1: 98.14	top5: 99.41	
+[10/25 23:33:06][INFO] visual_prompt:  307: 	Test 50/193. loss: 0.479, 0.4394 s / batch. (data: 2.34e-04)max mem: 5.81052 GB 
+[10/25 23:33:28][INFO] visual_prompt:  307: 	Test 100/193. loss: 0.194, 0.4409 s / batch. (data: 2.96e-05)max mem: 5.81052 GB 
+[10/25 23:33:50][INFO] visual_prompt:  307: 	Test 150/193. loss: 0.322, 0.4365 s / batch. (data: 1.96e-04)max mem: 5.81052 GB 
+[10/25 23:34:09][INFO] visual_prompt:  320: Inference (test):avg data time: 9.79e-05, avg batch time: 0.4364, average loss: 0.3890
+[10/25 23:34:09][INFO] visual_prompt:  113: Classification results with test_OxfordFlowers: top1: 98.11	top5: 99.54	
+[10/25 23:34:09][INFO] visual_prompt:   26: Constructing OxfordFlowers dataset test...
+[10/25 23:34:09][INFO] visual_prompt:   70: Number of images: 6149
+[10/25 23:34:09][INFO] visual_prompt:   71: Number of classes: 102
